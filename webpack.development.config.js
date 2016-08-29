@@ -18,7 +18,7 @@ module.exports = assign({}, base, {
     output: {
         path: __dirname + '/dest/',
         filename: 'bundle.js',
-        publicPath: 'http://' + ip + ':' + port + '/',
+        publicPath: 'http://' + ip + ':' + port + '/dest/',
         chunkFilename: '[hash]/[id].js'
     },
     devServer: {
